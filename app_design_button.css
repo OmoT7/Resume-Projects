@@ -1,0 +1,25 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #031926;
+}
+
+button {
+    background: None;
+    color: #77ACA2;
+    border: 2px solid #77ACA2;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all .25s;
+}
+button:hover {
+    border-color: #9DBEBB;
+    color: white;
+    box-shadow: 0 .5em .5em -.04em #9DBEBB;
+    transform: translateY(-.25em);
+    cursor: pointer;
+    
+}
